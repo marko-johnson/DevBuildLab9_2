@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "RegistrationForm";
+}
+
+<h1>Registration Form</h1>
+<div>
+    @ViewData["Message"]
+</div>
+
+<form method="post" action="/Sweepstakes/Congratulations">
+    First Name: <input type="text" name="FirstName" /><br />
+    Last Name: <input type="text" name="LastName" /><br />
+    Phone Number: <input type="tel" name="PhoneNumber" /><br />
+    Email: <input type="email" name="Email" /><br />
+    Password: <input type="password" name="Password" /><br />
+    <input type="submit" />
+</form>
